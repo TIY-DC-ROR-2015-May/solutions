@@ -24,10 +24,10 @@ class SayServer < Sinatra::Base
     "Cellos",
     "Deranged",
     "Good News",
-    "Hysterical ",
-    "Pipe Organ ",
-    "Trinoids ",
-    "Whisper ",
+    "Hysterical",
+    "Pipe Organ",
+    "Trinoids",
+    "Whisper",
     "Zarvox"
   ]
 
