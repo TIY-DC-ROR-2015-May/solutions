@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+ruby '2.2.0'
+
+gem 'activerecord'
+gem 'erubis'
+gem 'haversine'
+gem 'httparty'
+gem 'pry'
+gem 'minitest'
+gem 'rack-cors'
+gem 'rack-test'
+gem 'sinatra'
+gem 'tilt'
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
